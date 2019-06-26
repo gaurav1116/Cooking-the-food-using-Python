@@ -1,0 +1,59 @@
+#storing lovely loveseat description in a variable
+lovely_loveseat_description="""
+Lovely Loveseat. Tufted polyester 
+blend on wood. 32 inches high x 40 
+inches wide x 30 inches deep. Red or 
+white.
+"""
+#assigning a price to lovely loveseat in variable
+lovely_loveseat_price = 254.0
+
+#storing stylish settee description in a variable
+stylish_settee_description="""
+Stylish Settee. Faux leather on birch. 
+29.50 inches high x 54.75 inches wide 
+x 28 inches deep. Black.
+"""
+#assigning a price to stylish settee
+stylish_settee_price=180.50
+
+#storing luxurious lamp description
+luxurious_lamp_description="""
+Luxurious Lamp. Glass and iron. 36 
+inches tall. Brown with cream shade.
+"""
+#assigning a price to luxurious lamp in a variable
+luxurious_lamp_price=52.15
+
+#setting sales tax as 8.8% in a variable
+sales_tax=0.088
+
+#assigning customer one total bill to be zero
+customer_one_total=0
+#keeping the customer one itemization variable lank
+customer_one_itemization=" "
+
+#adding lovely loveseat price to customer one total
+customer_one_total += lovely_loveseat_price
+#adding love loveseat description to customer one itemization
+customer_one_itemization+=lovely_loveseat_description
+
+#adding luxurious lamp to customer one total
+customer_one_total += luxurious_lamp_price
+#adding luxury lamp description to customer one itemization
+customer_one_itemization += luxurious_lamp_description
+ 
+#calculating total custmer one tax and adding it to cutomer one total variable 
+customer_one_tax=customer_one_total*sales_tax
+customer_one_total +=customer_one_tax
+
+#printing customer one itemization that is description of all items
+print("Customer One Items:")
+print(customer_one_itemization)
+
+#printing customer one total
+print("Customer One Total:")
+print(customer_one_total)
+  
+
+
