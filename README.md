@@ -1,2 +1,2 @@
 # Cooking-the-food-using-Python
-*Some of python programs for practicing syntax
+* Some of python programs for practicing syntax
